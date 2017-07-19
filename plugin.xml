@@ -7,7 +7,7 @@
     </js-module>
 
     <platform name="windows">
-        <js-module name="INetCacheCleaner" src="src/windows/INetCacheCleaner.js">
+        <js-module name="INetCacheCleanerProxy" src="src/windows/INetCacheCleanerProxy.js">
             <runs target="" />
         </js-module>
     </platform>

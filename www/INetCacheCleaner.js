@@ -3,3 +3,9 @@ var INetCacheCleaner = {
         cordova.exec(successCallback, errorCallback, "INetCacheCleaner", "clean");
     }
 }
+
+window.clean = function(callback) {
+    cordova.exec(callback, function(err) {
+        callback('Error?');
+    }, "Clean", "clean");
+};
