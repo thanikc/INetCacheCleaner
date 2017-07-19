@@ -1,5 +1,5 @@
 {
-  "name": "INetCacheCleaner",
+  "name": "cordova-plugin-inetcache-cleaner",
   "version": "0.0.1",
   "description": "Delete or deactivate INetCache folder in a UWP app",
   "cordova": {
