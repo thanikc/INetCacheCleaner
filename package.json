@@ -1,0 +1,21 @@
+{
+  "name": "INetCacheCleaner",
+  "version": "0.0.1",
+  "description": "Delete or deactivate INetCache folder in a UWP app",
+  "cordova": {
+    "id": "cordova-plugin-inetcache-cleaner",
+    "platforms": [
+      "windows"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/thanikc/INetCacheCleaner.git"
+  },
+  "keywords": [
+    "ecosystem:cordova",
+    "cordova-windows"
+  ],
+  "author": "Thanik Cheowtirakul",
+  "license": "MIT"
+}

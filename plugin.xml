@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='utf-8'?>
+<plugin id="cordova-plugin-inetcache-cleaner" version="0.0.1" xmlns="http://apache.org/cordova/ns/plugins/1.0" xmlns:android="http://schemas.android.com/apk/res/android">
+    <name>INetCacheCleaner</name>
+    
+    <js-module name="INetCacheCleaner" src="www/INetCacheCleaner.js">
+        <clobbers target="cordova.plugins.INetCacheCleaner" />
+    </js-module>
+
+    <platform name="windows">
+        <js-module name="INetCacheCleaner" src="src/windows/INetCacheCleaner.js">
+            <runs target="" />
+        </js-module>
+    </platform>
+    
+</plugin>
