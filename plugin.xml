@@ -10,6 +10,7 @@
         <js-module name="INetCacheCleanerProxy" src="src/windows/INetCacheCleanerProxy.js">
             <runs target="" />
         </js-module>
+        <framework src="src/windows/INetCacheCleaner.winmd" custom="true"/>
     </platform>
     
 </plugin>

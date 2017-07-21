@@ -1,6 +1,7 @@
 module.exports = {
     clean: function (successCallback, errorCallback) {
-        successCallback("test");
+        var res = INetCacheCleanerRuntimeComponent.INetCacheCleanerPluginRT.clean();
+        successCallback(res);
     }
 };
 require("cordova/exec/proxy").add("INetCacheCleaner", module.exports);
