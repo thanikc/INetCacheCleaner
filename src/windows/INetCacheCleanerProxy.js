@@ -1,6 +1,6 @@
 module.exports = {
     clean: function (successCallback, errorCallback) {
-        var res = INetCacheCleanerRuntimeComponent.INetCacheCleanerPluginRT.clean();
+        var res = INetCacheCleaner.Cleaner.clean();
         successCallback(res);
     }
 };
